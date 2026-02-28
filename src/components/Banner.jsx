@@ -3,7 +3,7 @@ import bannerimg from '../../public/WhatsApp_Image_2026-01-12_at_3.44.17_AM-remo
 const Banner = () => {
   return (
     
-    <section className="flex justify-around items-center px-20 py-24 text-white">
+    <section className="flex justify-around items-center px-20 py-24 text-white   h-screen">
       
       {/* Left Content */}
       <div className="max-w-md">
