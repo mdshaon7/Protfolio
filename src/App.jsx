@@ -3,6 +3,13 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import About from './components/About'
 import Whatdo from './components/Whatdo'
+import Skills from './components/TechnicalSkill'
+import Experience from './components/Experience'
+import EducationExperienceTimeline from './components/Experience'
+import TechnicalSkillsNext from './components/TechnicalSkill'
+import MyFrontendSkillSlider from './components/TechnicalSkill'
+import Technical from './components/Technical'
+import Projects from './components/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +21,10 @@ function App() {
       <Banner />
       <About/>
       <Whatdo/>
+      <MyFrontendSkillSlider/>
+     <EducationExperienceTimeline />
+   <Technical/>
+   <Projects/>
 
     </div>
     </>
