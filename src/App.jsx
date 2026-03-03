@@ -10,6 +10,9 @@ import TechnicalSkillsNext from './components/TechnicalSkill'
 import MyFrontendSkillSlider from './components/TechnicalSkill'
 import Technical from './components/Technical'
 import Projects from './components/Projects'
+import WhatICanDoForYou from './components/WhatICanDoForYou '
+import ContactMe from './components/ContactMe '
+import Footer from './components/Footer '
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +28,9 @@ function App() {
      <EducationExperienceTimeline />
    <Technical/>
    <Projects/>
+   <WhatICanDoForYou/>
+   <ContactMe/>
+   <Footer/>
 
     </div>
     </>

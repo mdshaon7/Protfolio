@@ -29,7 +29,7 @@ const skills = [
 
 const MyFrontendSkill = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-black py-20 text-white">
+    <section id="skills" className="bg-gradient-to-b scroll-mt-20 from-gray-900 to-black py-20 text-white">
       <div className="max-w-6xl mx-auto px-4">
 
         <h2 className="text-4xl font-bold text-center mb-12">

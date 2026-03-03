@@ -2,16 +2,17 @@ import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import blogimg from "../assets/Finsweet-03-02-2026_04_13_AM.png"
 
 const projects = [
     {
         title: "Portfolio Website",
-        image: "/images/portfolio.png",
+        image: blogimg,
         description: "Personal portfolio using React, Tailwind CSS, and Next.js.",
     },
     {
         title: "E-commerce App",
-        image: "/images/ecommerce.png",
+        image: blogimg,
         description: "Full-stack MERN e-commerce application.",
     },
     {
@@ -32,7 +33,8 @@ const projects = [
 const Projects = () => {
     return (
         <>
-            <section className="bg-gray-900 py-20 text-white">
+        <div  ></div>
+            <section  className="bg-gray-900 py-20 text-white scroll-mt-20" id='projects'>
                 <div className="max-w-6xl mx-auto px-4">
                     <h2 className="text-4xl font-bold text-center mb-12">
                         Projects
@@ -62,7 +64,7 @@ const Projects = () => {
                                     <div className="p-6">
                                         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                                         <p className="text-gray-300">{project.description}</p>
-                                        <div className='h-full w-[83%] hidden  bg-amber-300/30 top-0 left-0 rounded-2xl absolute group-hover:flex justify-center items-center cursor-pointer duration-700 ease-in-out'>
+                                        <div className='h-full w-[83%] hidden  bg-white/30 top-0 left-0 rounded-2xl absolute group-hover:flex justify-center items-center cursor-pointer duration-700 ease-in-out'>
                                             <p className='bg-black inline-block px-2  font-medium py-2 '>live view</p>
                                         </div>
                                     </div>

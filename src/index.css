@@ -1,1 +1,92 @@
 @import "tailwindcss";
+
+.education {
+  animation: blueiconani 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+@keyframes blueiconani {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+.experince {
+  animation: blueiconww 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+@keyframes blueiconww {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+.jsIcon {
+    animation: jsIcon 10s linear infinite;
+}
+
+@keyframes jsIcon {
+    0% {
+        transform: translateY(60px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(60px);
+
+    }
+}
+
+.HtmlIcon {
+    animation: HtmlIcon 10s linear infinite;
+}
+
+@keyframes HtmlIcon {
+    0% {
+        transform: translateX(-60px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-60px);
+    }
+}
+
+.cssIcon {
+    animation: cssIcon 10s linear infinite;
+}
+
+@keyframes cssIcon {
+    0% {
+        transform: translateY(-60px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-60px);
+    }
+}

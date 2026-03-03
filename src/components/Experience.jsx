@@ -49,7 +49,7 @@ const EducationExperienceTimeline = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Education */}
-          <div className="sticky top-24 h-fit">
+          <div className=" top-24 h-fit education">
             <h3 className="text-2xl font-semibold mb-8 text-green-400">
               Education
             </h3>
@@ -61,7 +61,7 @@ const EducationExperienceTimeline = () => {
           </div>
 
           {/* Experience */}
-          <div className="sticky top-24 h-fit">
+          <div className=" top-24 h-fit experince">
             <h3 className="text-2xl font-semibold mb-8 text-cyan-400">
               Experience
             </h3>
